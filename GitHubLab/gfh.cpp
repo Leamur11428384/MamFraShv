@@ -4,7 +4,7 @@
 #include <string>
 #include "Functions.h"
 
-void writeToFile(const std::vector<std::string>& lines, const std::string& filename) {
+void writelines(const std::vector<std::string>& lines, const std::string& filename) {
     // Открываем файл сразу при создании объекта
     std::ofstream outputFile(filename);
     
