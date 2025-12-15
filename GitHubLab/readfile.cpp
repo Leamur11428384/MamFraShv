@@ -13,7 +13,6 @@ vector<string> readlines(const string& filename) {
 
     while (getline(file, line)){
         lines.push_back(line);
-        cout << line << endl;
     }
     
     return lines;
