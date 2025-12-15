@@ -10,7 +10,7 @@ std::vector<std::string> readlines(const std::string& filename);
 void printlines(const std::vector<std::string>& lines);
 
 // запись строк в файл
-void writelines(const std::vector<std::string>& lines,
+void writeToFile(const std::vector<std::string>& lines,
                 const std::string& filename);
 
 #endif

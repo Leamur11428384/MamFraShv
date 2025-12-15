@@ -5,6 +5,7 @@
 *.db
 *.ipch
 .vscode/
+input.txt
 # Build folders
 Debug/
 Release/
