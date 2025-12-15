@@ -2,7 +2,7 @@
 #include <fstream>
 #include <vector>
 #include <string>
-#include <Functions.h>
+#include "Functions.h"
 
 void writeToFile(const std::vector<std::string>& lines, const std::string& filename) {
     // Открываем файл сразу при создании объекта
